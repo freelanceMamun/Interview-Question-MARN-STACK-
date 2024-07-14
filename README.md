@@ -50,11 +50,10 @@ HTML (Hypertext Markup Language)
 <br>
 <br>
 <hr>
-<div>
+
 <h3 align="center" id="js"><img src="https://skillicons.dev/icons?i=js" width="20" />  JavaScript</h3>
 
-</div>
-
+<div>
 <details>
 <summary> ১.  Local storage ও  session   এর মধ্যে পার্থক্য কি ?  </summary>
 
@@ -122,6 +121,8 @@ sayHello2 নিজে শেষ হবার সময়ে var say2 = sayHello2(
 ২। ভিতরের ফাংশন এর লাইফ টাইম বাইরের ফাংশন এর চাইতে বেশি, বাইরের টা শেষ হয়ে যাবার সময় ভিতরের ফাংশন কে সব ডাটা দিয়ে যায়.
 
 </details>
+
+</div>
 
 <h3 align="center" id="ts"><img src="https://skillicons.dev/icons?i=ts" width="20" />  TypeScript</h3>
 
