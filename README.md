@@ -21,12 +21,12 @@
 <br>
 <hr>
 
-<div>
 <h3 style="flex" align="center" id="html">
 <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="25" />
 HTML (Hypertext Markup Language)
 </h3>
-</div>
+
+<div>
 
 <details>
 
@@ -45,6 +45,8 @@ HTML (Hypertext Markup Language)
 কিন্তু HTML5 এর পর থেকে কিছু সিমেন্টিক এলিমেন্ট এসেছে যেগুলো একটি ওয়েবপেজের বিভিন্ন অংশগুলো ডিফাইন করতে ব্যবহার করা হয়। নিচে এদের কিছু এলিমেন্ট দেয়া হলো :
 
 </details>
+
+</div>
 
 <br>
 <br>
@@ -67,6 +69,8 @@ HTML (Hypertext Markup Language)
 | উপযোগী    | দীর্ঘ সময় ডাটা রাখায়                                                 | আল্প সময় ডাটা রাখায়        |
 
 </details>
+
+</div>
 
 <h3 align="center" id="ts"><img src="https://skillicons.dev/icons?i=ts" width="20" />  TypeScript</h3>
 
