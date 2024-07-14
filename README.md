@@ -68,8 +68,6 @@ HTML (Hypertext Markup Language)
 
 </details>
 
-<details>
-
 <h3 align="center" id="ts"><img src="https://skillicons.dev/icons?i=ts" width="20" />  TypeScript</h3>
 
 <div>
