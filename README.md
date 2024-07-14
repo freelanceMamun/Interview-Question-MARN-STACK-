@@ -22,4 +22,13 @@
 
 <hr>
 
+<h3 align="center" id="html">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dhtml&psig=AOvVaw3HSSb5IRcooLrfk2QesnmT&ust=1721019209418000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMDbjKvepYcDFQAAAAAdAAAAABAE" width="20" />
+HTML (Hypertext Markup Language)
+</h3>
+
+<br>
+
+<hr>
+
 <h3 align="center" id="js"><img src="https://skillicons.dev/icons?i=js" width="20" />  JavaScript</h3>
