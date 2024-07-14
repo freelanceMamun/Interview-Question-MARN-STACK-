@@ -23,7 +23,7 @@
 <hr>
 
 <h3 align="center" id="html">
-<img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="30" />
+<img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="30" />
 HTML (Hypertext Markup Language)
 </h3>
 
@@ -45,5 +45,3 @@ HTML (Hypertext Markup Language)
 | উপযোগী    | দীর্ঘ সময় ডাটা রাখায়                                                 | আল্প সময় ডাটা রাখায়        |
 
 </details>
-
-<details>
