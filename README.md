@@ -22,8 +22,8 @@
 
 <hr>
 
-<h3 align="center" id="html">
-<img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="30" />
+<h3 style="flex" align="center" id="html">
+<img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="25" />
 HTML (Hypertext Markup Language)
 </h3>
 
@@ -42,6 +42,6 @@ HTML (Hypertext Markup Language)
 | --------- | -------------------------------------------------------------------- | -------------------------- |
 | স্থায়ীত্ব | মা্যানুয়ালি বা প্রোগ্রামিক্যালি ব্রাউজার ডাটা ক্লিয়ার না করা পর্যন্ত | ট্যাব ক্লোস করার সাথে সাথে |
 | এভাইলেবল  | সকল window তেই                                                       | নির্দিষ্ট ট্যাবেই          |
-| উপযোগী    | দীর্ঘ সময় ডাটা রাখায়                                                 | আল্প সময় ডাটা রাখায়        |
+| উপযোগী    | দীর্ঘ সময় ডাটা রাখায় যায়                                                | আল্প সময় ডাটা রাখায় যায়         |
 
 </details>
