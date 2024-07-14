@@ -19,15 +19,13 @@
 - [Guess The Output Challenge](#GTO)
 
 <br>
-
 <hr>
+<div>
 
 <h3 style="flex" align="center" id="html">
 <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="25" />
 HTML (Hypertext Markup Language)
 </h3>
-
-<div>
 
 <details>
 
@@ -50,7 +48,6 @@ HTML (Hypertext Markup Language)
 </div>
 
 <br>
-
 <hr>
 
 <div>
