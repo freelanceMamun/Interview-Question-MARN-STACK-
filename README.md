@@ -43,23 +43,6 @@ HTML (Hypertext Markup Language)
 
 কিন্তু HTML5 এর পর থেকে কিছু সিমেন্টিক এলিমেন্ট এসেছে যেগুলো একটি ওয়েবপেজের বিভিন্ন অংশগুলো ডিফাইন করতে ব্যবহার করা হয়। নিচে এদের কিছু এলিমেন্ট দেয়া হলো :
 
-```
-<article>
-<aside>
-<details>
-<figcaption>
-<figure>
-<footer>
-<header>
-<main>
-<mark>
-<nav>
-<section>
-<summary>
-<time>
-
-```
-
 </details>
 
 <br>
