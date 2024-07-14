@@ -20,13 +20,15 @@
 
 <br>
 <hr>
-<div>
 
+<div>
 <h3 style="flex" align="center" id="html">
 <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" width="25" />
 HTML (Hypertext Markup Language)
 </h3>
+</div>
 
+<div>
 <details>
 
 <summary> সিমেন্টিক এলিমেন্ট কি?  </summary>
@@ -51,8 +53,11 @@ HTML (Hypertext Markup Language)
 <hr>
 
 <div>
-
 <h3 align="center" id="js"><img src="https://skillicons.dev/icons?i=js" width="20" />  JavaScript</h3>
+
+</div>
+
+<div>
 
 <details>
 <summary> ১.  Local storage ও  session   এর মধ্যে পার্থক্য কি ?  </summary>
