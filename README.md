@@ -42,6 +42,39 @@ HTML (Hypertext Markup Language)
 | --------- | -------------------------------------------------------------------- | -------------------------- |
 | স্থায়ীত্ব | মা্যানুয়ালি বা প্রোগ্রামিক্যালি ব্রাউজার ডাটা ক্লিয়ার না করা পর্যন্ত | ট্যাব ক্লোস করার সাথে সাথে |
 | এভাইলেবল  | সকল window তেই                                                       | নির্দিষ্ট ট্যাবেই          |
-| উপযোগী    | দীর্ঘ সময় ডাটা রাখায় যায়                                                | আল্প সময় ডাটা রাখায় যায়         |
+| উপযোগী    | দীর্ঘ সময় ডাটা রাখায় যায়                                             | আল্প সময় ডাটা রাখায় যায়    |
+
+</details>
+
+<details>
+<summary> Closure কি এবং Closure  কাকে বলে ?  </summary>
+
+#### <span style="color:#f43f5e;">উঃ</span> Closure হলোঃ
+
+Closure হচ্ছে, একটা function এ ব্যবহৃত data, যেই data টা এই function এর scope এ ডিক্লেয়ার করা নাই, অর্থাৎ, এই নিজস্ব function এ, এই data টা own করে না । বাইরের থেকে এই data টা আসছে, মানে parent function থেকে আসছে ।
+
+```javascript
+function test() {
+  let msg = 'I am learning for ';
+  let month = 6;
+  return function () {
+    console.log(msg, month);
+  };
+}
+var sayMsg = test();
+console.dir(sayMsg);
+```
+
+আমরা জানি জাভাস্ক্রিপ্ট এ আপনি চাইলে ফাংশন থেকেও আরেকটা ফাংশন রিটার্ন করতে পারবেন। আর তখনি তৈরী হয় প্যারেন্ট-চাইল্ড রিলেশন। আর রিটার্নকৃত ফাংশনের সবকিছু চাইল্ড ফাংশন চাইলেও অ্যাক্সেস করতে পারে ক্লোজারস এর কারণে।
+
+```javascript
+function closuresDemo() {
+  var x = 10;
+  return function () {
+    var y = 20;
+    console.log('Sum: ' + (x + y));
+  };
+}
+```
 
 </details>
