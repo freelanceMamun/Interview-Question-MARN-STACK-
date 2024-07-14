@@ -23,7 +23,7 @@
 <hr>
 
 <h3 align="center" id="html">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk594AhSKw5Eb3iHkPHs_XmpCqaRVgu0mvg&s" width="20" />
+<img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="30" />
 HTML (Hypertext Markup Language)
 </h3>
 
@@ -32,3 +32,18 @@ HTML (Hypertext Markup Language)
 <hr>
 
 <h3 align="center" id="js"><img src="https://skillicons.dev/icons?i=js" width="20" />  JavaScript</h3>
+
+<details>
+<summary> ১.  Local storage ও  session   এর মধ্যে পার্থক্য কি ?  </summary>
+
+#### <span style="color:#f43f5e;">উঃ</span> local storage ও session এর মধ্যে পার্থক্য হলোঃ
+
+| পার্থক্য  | Local Storage                                                        | Session Storage            |
+| --------- | -------------------------------------------------------------------- | -------------------------- |
+| স্থায়ীত্ব | মা্যানুয়ালি বা প্রোগ্রামিক্যালি ব্রাউজার ডাটা ক্লিয়ার না করা পর্যন্ত | ট্যাব ক্লোস করার সাথে সাথে |
+| এভাইলেবল  | সকল window তেই                                                       | নির্দিষ্ট ট্যাবেই          |
+| উপযোগী    | দীর্ঘ সময় ডাটা রাখায়                                                 | আল্প সময় ডাটা রাখায়        |
+
+</details>
+
+<details>
