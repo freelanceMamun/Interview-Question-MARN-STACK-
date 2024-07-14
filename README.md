@@ -51,6 +51,25 @@ HTML (Hypertext Markup Language)
 <br>
 <hr>
 
+<h3 align="center" id="js"><img src="https://skillicons.dev/icons?i=js" width="20" />  JavaScript</h3>
+
+<div>
+
+<details>
+<summary> ১.  Local storage ও  session   এর মধ্যে পার্থক্য কি ?  </summary>
+
+#### <span style="color:#f43f5e;">উঃ</span> local storage ও session এর মধ্যে পার্থক্য হলোঃ
+
+| পার্থক্য  | Local Storage                                                        | Session Storage            |
+| --------- | -------------------------------------------------------------------- | -------------------------- |
+| স্থায়ীত্ব | মা্যানুয়ালি বা প্রোগ্রামিক্যালি ব্রাউজার ডাটা ক্লিয়ার না করা পর্যন্ত | ট্যাব ক্লোস করার সাথে সাথে |
+| এভাইলেবল  | সকল window তেই                                                       | নির্দিষ্ট ট্যাবেই          |
+| উপযোগী    | দীর্ঘ সময় ডাটা রাখায়                                                 | আল্প সময় ডাটা রাখায়        |
+
+</details>
+
+<details>
+
 <h3 align="center" id="ts"><img src="https://skillicons.dev/icons?i=ts" width="20" />  TypeScript</h3>
 
 <div>
