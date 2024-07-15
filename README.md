@@ -93,6 +93,49 @@ sayHello2 নিজে শেষ হবার সময়ে var say2 = sayHello2(
 
 </details>
 
+<details>
+<summary> (Hoisting) হয়েস্টিং  কি ?  </summary>
+
+#### <span style="color:#f43f5e;">উঃ</span> সহজ ভাষায়, Hoisting হলো জাভাস্ক্রিপ্টের Default Behaviour যা ফাংশন বা ভ্যারিয়বলের declaration অংশকে উপরে নিয়ে যায়।
+
+var এর ক্ষেত্রে hoisting হয়ে value = undefined হয়ে যায়, অথ্যাৎ মেমরিতে একটা reference তৈরী হয়।
+
+```javascript
+a = 10;
+
+var a;
+
+console.log(a); // 10
+```
+
+উপরের কোডটি লক্ষ্য করে দেখুন, ভ্যারিয়বল a এর ভ্যালু ডিক্লেয়ার করার আগে value a= 10 assign করা হয়েছে। তাহলে কি মনে হয় console log এ আমার কি output পাবো। চলুন কোডটি রান করি এখন:
+
+#### এবার জানবো, Let এর ক্ষেত্রে কি hoisting হয় কিনা?
+
+একদম সোজাসোপ্টা উত্তর, Let এর ক্ষেত্রেও hoisting হয়। চলুন জানি কিভাবে।
+
+```javascript
+b = 20;
+
+let b;
+
+console.log(a);
+```
+
+Let এর ক্ষেত্রেও hoisting হয়, অর্থ্যাৎ let দিয়ে ডিক্লেয়ার করা ভ্যারিয়বলেরও, ডিক্লেয়ার অংশটুকু কোড এক্সিকিউশনে একদম উপরে চলে যাবে, কিন্তু value = undefined বা memeroy তে reference তৈরী হয় না। তাই উপরের কোডটি রান করলে কনসোল লগে reference error পাবো।
+
+const এর ক্ষেত্রে syntax error হবে, কারন hoisting ত দূরের কথা const আলাদা করে declare করে assign করা যায় না , তাই কনসোলে syntax error দেখতে পাচ্ছি।
+
+```javascript
+const a;   
+
+a = 10; // which is  syntax error
+
+console.log(a);
+```
+
+</details>
+
 </div>
 
 <h3 align="center" id="ts"><img src="https://skillicons.dev/icons?i=ts" width="20" />  TypeScript</h3>
