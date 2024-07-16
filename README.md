@@ -166,17 +166,21 @@ console.log(something); //  undefined
 
 ২। নন প্রিমিটিভ/রেফারেন্স ডাটা টাইপ
 
-
 ### প্রিমিটিভ ডাটা টাইপঃ
 
-(i) String -
-(ii) Number - গাণিতিক বা numeric মান নির্ধারণ করে,
-(iii) Undefined - Undefined মান নির্ধারণ করে,
-(iV) Boolean - কেবল মাত্র দুইটি মান বা value ব্যবহার করে অর্থাৎ "true" এবং "false"   ব্যবহার করে মান নির্ধারণ করে,
-(V) Null - শূন্য বা null মান নির্ধারণ করে,
-(Vi) undefined 
-(Vii) symbol
+(i) String
 
+(ii) Number - গাণিতিক বা numeric মান নির্ধারণ করে
+
+(iii) Undefined - Undefined মান নির্ধারণ করে
+
+(iV) Boolean - কেবল মাত্র দুইটি মান বা value ব্যবহার করে অর্থাৎ "true" এবং "false" ব্যবহার করে মান নির্ধারণ করে
+
+(V) Null - শূন্য বা null মান নির্ধারণ করে
+
+(Vi) undefined
+
+(Vii) symbol
 
 ### নন-প্রিমিটিভ/রেফারেন্স ডাটা টাইপঃ
 
@@ -187,7 +191,6 @@ console.log(something); //  undefined
 (ii) অবজেক্ট
 
 (iii) ফাংশন
-
 
 </details>
 
