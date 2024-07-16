@@ -1,17 +1,9 @@
-console.log(a); // undefined
+function test() {
+  let msg = 'I am learning for ';
 
-var a = 'Hosting';
-
-function myfun() {
-  console.log(b); // undefined
-  b = 'Bangladesh';
-  var b;
+  return function () {
+    console.log(msg, month);
+  };
 }
-
-myfun();
-
-//console.log(c); // ReferenceError
-let c;
-console.log(c); // undefined
-c = 'Javascript';
-console.log(c); // Javascript
+var sayMsg = test();
+console.dir(sayMsg);
