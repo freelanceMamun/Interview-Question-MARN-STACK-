@@ -110,7 +110,7 @@ console.log(a); // 10
 
 উপরের কোডটি লক্ষ্য করে দেখুন, ভ্যারিয়বল a এর ভ্যালু ডিক্লেয়ার করার আগে value a= 10 assign করা হয়েছে। তাহলে কি মনে হয় console log এ আমার কি output পাবো। চলুন কোডটি রান করি এখন:
 
-#### এবার জানবো, Let এর ক্ষেত্রে কি hoisting হয় কিনা?
+#### এবার জানবো, Let or Const এর ক্ষেত্রে কি hoisting হয় কিনা?
 
 একদম সোজাসোপ্টা উত্তর, Let এর ক্ষেত্রেও hoisting হয়। চলুন জানি কিভাবে।
 
@@ -124,10 +124,21 @@ console.log(a);
 
 Let এর ক্ষেত্রেও hoisting হয়, অর্থ্যাৎ let দিয়ে ডিক্লেয়ার করা ভ্যারিয়বলেরও, ডিক্লেয়ার অংশটুকু কোড এক্সিকিউশনে একদম উপরে চলে যাবে, কিন্তু value = undefined বা memeroy তে reference তৈরী হয় না। তাই উপরের কোডটি রান করলে কনসোল লগে reference error পাবো।
 
+```javascript
+console.log(c); // ReferenceError
+
+let c;
+console.log(c); // undefined
+
+c = 'Javascript';
+
+console.log(c); // Javascript
+```
+
 const এর ক্ষেত্রে syntax error হবে, কারন hoisting ত দূরের কথা const আলাদা করে declare করে assign করা যায় না , তাই কনসোলে syntax error দেখতে পাচ্ছি।
 
 ```javascript
-const a;   
+const a;
 
 a = 10; // which is  syntax error
 
