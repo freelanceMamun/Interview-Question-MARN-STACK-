@@ -6,6 +6,25 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="index.js"></script>
+
+    <div onclick="myfun1()">
+      <div onclick="myfun2()">
+        <button onclick="myfun3()" class="">Button</button>
+      </div>
+    </div>
+    
+    <script>
+      function myfun1() {
+        console.log('Frist Div');
+      }
+
+      function myfun2() {
+        console.log('second Div');
+      }
+
+      function myfun3() {
+        console.log('Button inner');
+      }
+    </script>
   </body>
 </html>
