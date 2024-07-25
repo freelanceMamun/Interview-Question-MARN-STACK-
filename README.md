@@ -235,4 +235,19 @@ aDemoFunc(); //  ReferenceError
 
 </details>
 
+<details>
+
+<summary>  জাভাস্ক্রিপ্টে ফাংশন কত প্রকার ও  কি কি ?  </summary>
+
+1. Normal/Regular Function
+2. Anonymous Function
+3. Calback Function
+4. Function
+5. Arrow Function
+6. Higher-order Function
+
+## Normal Function
+
+</details>
+
 </div>
