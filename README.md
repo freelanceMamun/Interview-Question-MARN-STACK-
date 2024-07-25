@@ -239,7 +239,7 @@ aDemoFunc(); //  ReferenceError
 
 <summary>  জাভাস্ক্রিপ্টে ফাংশন কত প্রকার ও  কি কি ?  </summary>
 
-1. Normal/Regular Function
+1. Normal/Regular Function / Pure Function
 2. Anonymous Function
 3. Calback Function
 4. Function
@@ -247,6 +247,43 @@ aDemoFunc(); //  ReferenceError
 6. Higher-order Function
 
 ## Normal Function
+
+নরমাল ফাংশন ডিক্লেয়ারের জন্য function কীওয়ার্ড ব্যবহার করতে হয় এর পর function কীওয়ার্ড এর সাথে তার একটি নাম দিতে হয় এবং ওই নাম ধরে function টি কে কল করতে হয় |
+
+```javascript
+function normalFun() {
+  console.log(' This is Normal Function Example');
+}
+```
+
+## Pure Function
+
+Computer Science এর ভাষায় যে সকল function ইন্টার্নাল লজিক নিয়ে থাকে ও একই Input এর জন্য একই Output দিয়ে থাকে তাকে Pure Function বলে ।
+
+# এর ২টা বৈশিষ্ট থাকে
+
+নিজের বিজনেস লজিক নিয়ে কনসার্ন ।
+Same Input এর জন্য Same output দিয়ে থাকে ।
+
+# Pure Function এর উদাহরণঃ
+
+```javascript
+function pureFun(value) {
+  return value * 4;
+}
+
+pureFun(4); // 4
+pureFun(4); // 4
+pureFun(4); // 4
+```
+
+এখানে pureFn কে Input হিসেবে যতবারই ২ দেয়া হবে এটি প্রতিবার ৪ রিটার্ন করবে ।
+
+এখানে Pure function নীতি ২টি সঠিকভাবে ফলো করা হয়েছে ।
+
+১. প্রতিবার same input এর জন্য same output দিবে ।
+
+২. বাহিরের কোনো প্রকার স্টেট বা কিছু প্ররিরর্তন করে নাই
 
 </details>
 
