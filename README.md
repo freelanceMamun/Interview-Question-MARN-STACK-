@@ -285,6 +285,29 @@ pureFun(4); // 4
 
 ২. বাহিরের কোনো প্রকার স্টেট বা কিছু প্ররিরর্তন করে নাই
 
+# অপরদিকে,
+
+```javascript
+let count = 0;
+
+function impureFun(value) {
+  count++;
+  return value * count;
+}
+
+impureFun(2); // 2
+impureFun(2); // 4
+impureFun(2); // 6
+```
+
+impureFn এর ক্ষেত্রে Pure function নীতি ২টি সঠিকভাবে ফলো করা হয়নি ।
+
+১. প্রতিবার same input দিলেও আলাদা আলাদা output দিচ্ছে ।
+
+২. এটি বাহিরের count variable পরিবর্তন করছে, অর্থাৎ শুধুমাত্র নিজের লজিক নিয়ে কনসার্ন না , function টি নিজের body এর বাহিরের কিছু পরিবর্তন করে ফেলেছে ।
+
+তাই এটি pure function না ।
+
 </details>
 
 </div>
