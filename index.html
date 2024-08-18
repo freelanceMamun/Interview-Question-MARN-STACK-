@@ -6,13 +6,18 @@
     <title>Document</title>
   </head>
   <body>
+    <style>
+      body {
+        background: #111;
+      }
+    </style>
 
     <div onclick="myfun1()">
       <div onclick="myfun2()">
         <button onclick="myfun3()" class="">Button</button>
       </div>
     </div>
-    
+
     <script>
       function myfun1() {
         console.log('Frist Div');
@@ -26,5 +31,7 @@
         console.log('Button inner');
       }
     </script>
+
+    <script src="index.js"></script>
   </body>
 </html>

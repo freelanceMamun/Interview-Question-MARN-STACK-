@@ -347,4 +347,38 @@ callMyName('Zonayed Ahmed', hello);
 
 </details>
 
+<details>
+
+<summary>  জাভাস্ক্রিপ্টে Falsy ভ্যালু কোনগুলেকে বলে? </summary>
+
+#### <span style="color:#f43f5e;">উঃ</span>
+
+0, "", null, undefined, NaN, false এগুলোকে falsy ভালু বলে ।
+
+#### <span style="color:#f43f5e;">Example</span>
+
+```javascript
+// ###  Example 1
+
+let myValue = '';
+
+if (myValue) {
+  console.log('I am truthy');
+} else {
+  console.log('I am Falsy'); // Result  I am Falsy
+}
+
+// ###  Example 2
+
+let myValue = 0;
+
+if (myValue) {
+  console.log('I am truthy');
+} else {
+  console.log('I am Falsy'); // Result  I am Falsy
+}
+```
+
+</details>
+
 </div>
