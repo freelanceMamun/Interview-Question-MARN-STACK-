@@ -385,12 +385,9 @@ if (myValue) {
 
 <summary>  জাভাস্ক্রিপ্টে getElement এবং Query সিলেক্টর্স এর পার্থক্য </summary>
 
-#### <span style="color:#f43f5e;">উঃ</span>
-
 এই দুটি পদ্ধতির মধ্যে সুস্পষ্ট মিল হল যে তারা উভয়ই একটি ওয়েব পৃষ্ঠা থেকে উপাদান নির্বাচন করে। তারা বিভিন্ন উপায়ে তা করে।
 
-getElement
-getElementById পদ্ধতি ব্যবহার করে, আপনি শুধুমাত্র তার ID দ্বারা একটি উপাদান নির্বাচন করতে পারেন। শুধুমাত্র একটি উপাদান নির্বাচন করতে পারেন। getElementByClassName আপনাকে শুধুমাত্র তার class নামের উপর ভিত্তি করে যেকোনো উপাদান নির্বাচন করতে দেয়। getElementsByTagName() পদ্ধতি একটি নির্দিষ্ট ট্যাগ নামের সাথে সমস্ত উপাদানের একটি সংগ্রহ প্রদান করে।
+#### <span style="color:#f43f5e;">উঃ</span> getElement getElementById পদ্ধতি ব্যবহার করে, আপনি শুধুমাত্র তার ID দ্বারা একটি উপাদান নির্বাচন করতে পারেন। শুধুমাত্র একটি উপাদান নির্বাচন করতে পারেন। getElementByClassName আপনাকে শুধুমাত্র তার class নামের উপর ভিত্তি করে যেকোনো উপাদান নির্বাচন করতে দেয়। getElementsByTagName() পদ্ধতি একটি নির্দিষ্ট ট্যাগ নামের সাথে সমস্ত উপাদানের একটি সংগ্রহ প্রদান করে।
 
 ```Javascript
 
@@ -401,8 +398,7 @@ document.getElementsByTagName(“p”)[0].innerHTML = “Hello World!”
 
 ```
 
-querySelector
-একটি querySelector দিয়ে, আপনি একটি CSS Selector উপর ভিত্তি করে একটি উপাদান নির্বাচন করতে পারেন। querySelectorAll দিয়ে, আপনি সমস্ত উপাদান নির্বাচন করতে পারেন। querySelector(“css-selectors”) আপনাকে CSS Selector প্যাটার্নের উপর ভিত্তি করে যেকোনো উপাদান নির্বাচন করতে দেয়।
+#### <span style="color:#f43f5e;">উঃ</span> QuerySelector দিয়ে, আপনি একটি CSS Selector উপর ভিত্তি করে একটি উপাদান নির্বাচন করতে পারেন। querySelectorAll দিয়ে, আপনি সমস্ত উপাদান নির্বাচন করতে পারেন। querySelector(“css-selectors”) আপনাকে CSS Selector প্যাটার্নের উপর ভিত্তি করে যেকোনো উপাদান নির্বাচন করতে দেয়।
 
 ```javascript
 document.querySelector(“.example”).style.backgroundColor = “red”;
@@ -418,6 +414,27 @@ document.querySelectorAll(“.example”).style.backgroundColor = “red”;
 #### <span style="color:#f43f5e;">উঃ</span> নেটিভ অবজেক্ট হল এমন বস্তু যা জাভাস্ক্রিপ্ট ভাষার অংশ যা ECMAScript স্পেসিফিকেশন দ্বারা সংজ্ঞায়িত করা হয়, যেমন String , Math , RegExp , অবজেক্ট , ফাংশন , ইত্যাদি। হোস্ট অবজেক্ট রানটাইম পরিবেশ (ব্রাউজার বা নোড) দ্বারা প্রদান করা হয়, যেমন window , XMLHTTPRequest , ইত্যাদি
 
 </details>
+
+<details>
+
+</details>
+<summary>  HTML এ খালি ইলিমেন্টস কি? </summary>
+
+#### <span style="color:#f43f5e;">উঃ</span> খালি বা অকার্যকর উপাদান হল এইচটিএমএল উপাদান যেগুলির জন্য একটি ক্লোজিং ট্যাগের প্রয়োজন হয় না কারণ এতে কোনও সামগ্রী নেই ৷ তারা স্বয়ংসম্পূর্ণ, স্বাধীনভাবে সম্পূর্ণ, এবং কাজ করার জন্য অন্যান্য উপাদানের উপর নির্ভর করে না।
+
+```html
+<!-- Example of an empty div tag -->
+<div></div>
+
+<!-- Example of an empty span tag -->
+<span></span>
+
+<!-- Example of an empty img tag -->
+<img src="path/to/image.jpg" alt="" />
+
+<!-- Example of an empty input tag -->
+<input type="text" name="username" value="" />
+```
 
 <details>
 <summary>  জাভাস্ক্রিপ্টে ইভেন্ট কী এবং কীভাবে কাজ করে </summary>
