@@ -381,4 +381,58 @@ if (myValue) {
 
 </details>
 
+<details>
+
+<summary>  জাভাস্ক্রিপ্টে getElement এবং Query সিলেক্টর্স এর পার্থক্য
+<summary>
+
+#### <span style="color:#f43f5e;">উঃ</span>
+
+এই দুটি পদ্ধতির মধ্যে সুস্পষ্ট মিল হল যে তারা উভয়ই একটি ওয়েব পৃষ্ঠা থেকে উপাদান নির্বাচন করে। তারা বিভিন্ন উপায়ে তা করে।
+
+getElement
+getElementById পদ্ধতি ব্যবহার করে, আপনি শুধুমাত্র তার ID দ্বারা একটি উপাদান নির্বাচন করতে পারেন। শুধুমাত্র একটি উপাদান নির্বাচন করতে পারেন। getElementByClassName আপনাকে শুধুমাত্র তার class নামের উপর ভিত্তি করে যেকোনো উপাদান নির্বাচন করতে দেয়। getElementsByTagName() পদ্ধতি একটি নির্দিষ্ট ট্যাগ নামের সাথে সমস্ত উপাদানের একটি সংগ্রহ প্রদান করে।
+
+```Javascript
+
+document.getElementById(“demo”).style.color = “red”;
+const collection = document.getElementsByClassName(“example color”);
+document.getElementsByTagName(“p”)[0].innerHTML = “Hello World!”
+
+
+```
+
+querySelector
+একটি querySelector দিয়ে, আপনি একটি CSS Selector উপর ভিত্তি করে একটি উপাদান নির্বাচন করতে পারেন। querySelectorAll দিয়ে, আপনি সমস্ত উপাদান নির্বাচন করতে পারেন। querySelector(“css-selectors”) আপনাকে CSS Selector প্যাটার্নের উপর ভিত্তি করে যেকোনো উপাদান নির্বাচন করতে দেয়।
+
+```javascript
+document.querySelector(“.example”).style.backgroundColor = “red”;
+document.querySelectorAll(“.example”).style.backgroundColor = “red”;
+
+```
+
+</details>
+
+<details>
+
+<summary>  হোস্ট অবজেক্ট এবং নেটিভ অবজেক্টের মধ্যে পার্থক্য কি?
+<summary>
+
+#### <span style="color:#f43f5e;">উঃ</span>
+
+নেটিভ অবজেক্ট হল এমন বস্তু যা জাভাস্ক্রিপ্ট ভাষার অংশ যা ECMAScript স্পেসিফিকেশন দ্বারা সংজ্ঞায়িত করা হয়, যেমন String , Math , RegExp , অবজেক্ট , ফাংশন , ইত্যাদি। হোস্ট অবজেক্ট রানটাইম পরিবেশ (ব্রাউজার বা নোড) দ্বারা প্রদান করা হয়, যেমন window , XMLHTTPRequest , ইত্যাদি
+
+</details>
+
+<details>
+
+<summary>  জাভাস্ক্রিপ্টে ইভেন্ট কী এবং কীভাবে কাজ করে
+<summary>
+
+#### <span style="color:#f43f5e;">উঃ</span>
+
+যখন একটি ব্রাউজার বা একজন ইউজার পেজ ম্যানিপুলেট করে তখন javaScript এবং HTML -এর মধ্যে ইন্টারঅ্যাকশনের সৃষ্টি হয় । ধরুন, যখন একটা ওয়েবসাইটের পেজ লোড করা হল, তখন সেটাকে একটা ইভেন্ট বলা হয়, পেজের মধ্যে কোনো একটা বাটনে ক্লিক করা হলে, সেটাকেও একটা ইভেন্ট বলা হয়। অর্থাৎ ইউজার ওয়েব পেজের মধ্যে কিছু একটা করলে কোনো একটা ঘটনা ঘটতেছে এমন একটা কিছুকে ইভেন্ট বলা হচ্ছে । পেজের মধ্যে জাভাস্ক্রিপ্ট-এর কোনো নির্দিষ্ট অ্যাক্টিভিটিগুলোকে সচল করার জন্য এই ইভেন্টগুলো অ্যাড করা থাকে। যেটা হতে পারে কোনো একটা বাটনে ক্লিক করলে উইনডো ক্লোজ হবে, ইউজারকে একটা মেসেজ দেখানো, ইউজারের ডাটা নেওয়া ইত্যাদি
+
+</details>
+
 </div>
