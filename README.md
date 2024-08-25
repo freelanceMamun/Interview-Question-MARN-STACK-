@@ -446,3 +446,25 @@ document.querySelectorAll(“.example”).style.backgroundColor = “red”;
 </details>
 
 </div>
+
+<hr>
+
+<!-- React Question  -->
+<h3 align="center" id="js"><img src="https://camo.githubusercontent.com/ff077b866cdc3fc2b0fa50ca6f8fa395451ffa625bc9c1133643b40e8afa2e2c/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7265616374" width="20" />  React JS</h3>
+
+<div>
+
+<details>
+
+<summary>  ১. React ও React-DOM কী? Website বানাতে ২টি আলাদা আলাদা ইন্সটল কেন করতে হয়? </summary>
+
+React.js বলতে React ও React-DOM এর সমন্বয়ে একটা প্যাকেজ বুঝায় । যদিও ২টি আলাদা আলদা ভূমিকা রাখে ।
+
+React : এটি মূলত JavaScript ওয়েব ও অ্যাপ এর জন্য একটি প্যাকেজ ও কাচামাল বলা যায় ।
+কিভাবে রিয়েক্ট কাজ করবে তার নির্ধারণ করে ।
+
+React-DOM : Browser DOM এর একটি কপি বা শেডো ডম । মূলত React এ কোনো State পরিবর্তন হলে সেটি আগে Virtual-DOM (V-DOM) এ সেটি পরিবর্তন করে এবং তা ডিফিং বা রি- কনসালেসশন এলগোরিদম এর মাধ্যমে কোন component এ পরিবর্তন হয়েছে সেটি এই খসড়া ডমে পরিবর্তনের এরপর সারর্জিক্যাল অপারেশনের এর মাধ্যমে মূল ডমে পরিরর্তন করে|
+
+</details>
+
+<div>
