@@ -537,7 +537,10 @@ onClick কোনো event এ ১ম index এর Component কে remove ক�
 
 </details>
 
+<details>
+
 <summary> Client Components এর মধ্যেও কিভাবে Server Components রেন্ডার করা যায় ?  </summary>
+উঃ
 
 </details>
 
