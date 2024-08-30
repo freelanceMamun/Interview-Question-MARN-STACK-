@@ -19,6 +19,35 @@
 - [Guess The Output Challenge](#GTO)
 
 <br>
+
+<hr>
+
+<h3 align="center" id="js"><img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="20" />  HTML5</h3>
+
+<div>
+<details>
+<summary> এম্পটি ট্যাগ কী? </summary>
+
+উত্তর : যে ট্যাগ ডকুমেন্ট নির্দেশনায় শুধু একবার ব্যবহার করা হয়, তাকে এম্পটি ট্যাগ বলে। ইনপুট ট্যাগ, ইমেজ ট্যাগ ইত্যাদির শুরু ট্যাগ থাকলেও শেষ ট্যাগ নেই।
+
+</details>
+
+<details>
+<summary>  অ্যাট্রিবিউট কী? </summary>
+
+উত্তর : HTML-এ যে এলিমেন্টগুলো রয়েছে তাতে অতিরিক্ত তথ্য প্রকাশ করার জন্য যে পদ্ধতি ব্যবহার করা হয়, তাকে অ্যাট্রিবিউট বলে।
+
+</details>
+
+<details>
+<summary>  নেস্টেড এলিমেন্ট কী? </summary>
+
+উত্তর : একটি এলিমেন্টের মধ্যে আরেকটি এলিমেন্ট থাকলে তাকে নেস্টেড এলিমেন্ট বলে।
+
+</details>
+
+</div>
+
 <hr>
 
 <h3 align="center" id="js"><img src="https://skillicons.dev/icons?i=js" width="20" />  JavaScript</h3>
@@ -618,6 +647,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 </details>
 
+<details>
+<summary>
+Local ও Global Component Mutation বলতে কি বুঝায় ?
+</summary>
+React Development mood এ কোনো পরিবর্তন হলে সেই component ও এর সকল Child components কে re-render করে ।
+
+তবে Dev Mood এ এটি ২ বার করে ।
+
+</details>
 <div>
 
 <hr>
