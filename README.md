@@ -590,6 +590,34 @@ export default MyComponent;
 
 </details>
 
+<details>
+
+ <summary> React Dev Mood এ State পরিবর্তন এর সাথে সাথে ২ ভার রি-রেন্ডার করে কেন ? </summary>
+
+React Development mood এ কোনো পরিবর্তন হলে সেই component ও এর সকল Child components কে re-render করে ।
+তবে Dev Mood এ এটি ২ বার করে ।
+
+```Javascript
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
+```
+
+মূলত main.jsx আমরা React.StrictMode ব্যবহার এর জন্য এই Behavior পেয়ে থাকি।
+
+এক্ষেত্রে React প্রটিতি component ও এর সকল Child components কে ২ বার re-render করার মাধ্যমে Module Dependency Tree এর কোথায় কোন Error হয়েছে তা চেক করে ।
+
+এর ফলে কোনো error হলে উক্ত file ও কত নাম্বার লাইনে হয়েছে তা show করতে পারে ।
+
+তবে এটি Production Deployment এর পর আর কাজ করে না ।
+
+</details>
+
 <div>
 
 <hr>
